@@ -10,6 +10,19 @@ dependencies:
   - jupyter
   - jupyterlab
   - pathlib
+  - NumPy 
+  - pandas
+  - Matplotlib 
+  - seaborn
+  - Scikit-learn
+  - statsmodels 
+  - scipy 
+  - plotly
+  - bokeh,
+  - TensorFlow
+  - Keras
+  - PyTorch
+
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
