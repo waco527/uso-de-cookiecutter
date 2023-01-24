@@ -30,7 +30,7 @@ activate {{ cookiecutter.project_slug }}
     {{ cookiecutter.project_slug }}
         ├── data
         │   ├── processed      <- The final, canonical data sets for modeling.
-        │   |── raw            <- The raw files
+        │   └── raw            <- The original, immutable data dump.
         │
         ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
         │                         the creator's initials, and a short `-` delimited description, e.g.
