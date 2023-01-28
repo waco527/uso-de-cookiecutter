@@ -1,0 +1,9 @@
+{
+    "project_titulo" : "Cookiecutter personalizado",
+    "project_slug" : "{{cookiecutter.project_titulo.lower().replace(' ','_')}}",
+    "authorname" : "Escriba su nombre" ,
+    "description": "se describe el proyecto",
+    "author": "Nombre del autor",
+    "python_version": "3.7"
+
+}

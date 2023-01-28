@@ -1,0 +1,13 @@
+#conda env create --file config.yml
+name: {{cookiecutter.project_slug}}
+channels:
+
+- anaconda
+- conda-forge
+- defaults 
+
+dependecies :
+
+- jupyter
+- mamba
+- python= {{cookiecutter.python_version}} 

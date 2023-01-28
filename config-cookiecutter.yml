@@ -1,0 +1,7 @@
+name: cookiecutter-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter=1.7.3
+prefix: /home/waco527/miniconda3/envs/cookiecutter-env
